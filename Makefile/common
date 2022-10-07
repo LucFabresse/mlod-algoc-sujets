@@ -1,0 +1,14 @@
+CC=clang
+CDEBUG=-fsanitize=address -g
+LDEBUG=-fsanitize=address -static-libsan
+
+TEST_LIB=../../external_libs/unity/unity.o
+CFLAGS=$(CDEBUG) -D_POSIX_C_SOURCE -Wall -Wextra -Werror -std=c11 -I../../external_libs
+LDFLAGS=$(LDEBUG)
+
+%.o: %.c
+	$(CC) $(CFLAGS) -c -o $@ $<
+
+%: %.o
+	${CC} -o $@ ${LDFLAGS} $^
+
