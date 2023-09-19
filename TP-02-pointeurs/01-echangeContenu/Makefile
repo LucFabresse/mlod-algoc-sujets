@@ -1,6 +1,6 @@
 include ../../Makefile/common
 
-PROGRAMS=main
+PROGRAMS=main tests
 
 all: $(PROGRAMS)
 
