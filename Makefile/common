@@ -11,4 +11,3 @@ LDFLAGS=$(LDEBUG)
 
 %: %.o
 	${CC} -o $@ ${LDFLAGS} $^
-
