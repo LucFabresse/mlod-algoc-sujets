@@ -26,7 +26,7 @@ void initialiser(ArbreBinaire* a);
 ArbreBinaire creer(Element e);
 
 // insere e dans a sachant que a est un arbre binaire de recherche
-// si a contient déjà un element e, ce dernier n'est pas insérer afin d'éviter les doublons
+// si a contient déjà un element e, ce dernier n'est pas inséré afin d'éviter les doublons
 // version itérative
 ArbreBinaire insere_i(ArbreBinaire a, Element e);
 

@@ -18,18 +18,18 @@ ArbreBinaire creer(Element e) {
 }
 
 // insere e dans a sachant que a est un arbre binaire de recherche
-// si a contient déjà un element e, ce dernier n'est pas insérer afin d'éviter les doublons
+// si a contient déjà un element e, ce dernier n'est pas inséré afin d'éviter les doublons
 // version itérative
 ArbreBinaire insere_i(ArbreBinaire a, Element e) {
 
 	return NULL;
-}	
+}
 
 // insere e dans a sachant que a est un arbre binaire de recherche
 // si a contient déjà un element e, ce dernier n'est pas insérer afin d'éviter les doublons
 // version récursive
 ArbreBinaire insere_r(ArbreBinaire a, Element e) {
-	
+
 	return NULL;
 }
 
@@ -81,7 +81,7 @@ ArbreBinaire max(ArbreBinaire a){
 }
 
 
-// retourne l'arbre dont la valeur de la racine est elem et NULL si elem n'existe dans a 
+// retourne l'arbre dont la valeur de la racine est elem et NULL si elem n'existe dans a
 // version récursive
 ArbreBinaire recherche_r(ArbreBinaire a, Element elem){
 
